@@ -38,12 +38,11 @@ namespace EmpolyeePresentandAbsent
                         break;
 
                 }
-                Console.WriteLine("Employee Monthly Wage is :"+MonthlyWage);
-                Console.WriteLine("EMployee Prasent Days :"+day);
-                Console.WriteLine(count);
-                Console.ReadKey();
+                
             }
-            
+            Console.WriteLine("Employee Monthly Wage is :" + MonthlyWage);
+            Console.WriteLine("EMployee Prasent Days :" + day);
+            Console.ReadKey();
         }
     }
 }
