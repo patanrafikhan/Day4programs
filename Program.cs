@@ -11,7 +11,7 @@ namespace EmpolyeePresentandAbsent
             string name=Console.ReadLine();
 
             Random ran= new Random();
-            int n= ran.Next();
+            int n= ran.Next(0, 2);
 
             if(n == 0 )
             {
